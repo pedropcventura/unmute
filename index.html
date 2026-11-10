@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Unmute · Comunicação, educação e tecnologia assistiva</title>
+<meta name="description" content="Apresentação do Unmute, proposta conceitual de óculos de legendas em tempo real para pessoas surdas.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bar"></div>
+<div id="viewport"><div id="stage">
+
+<section class="slide active" data-title="Capa" data-note="Capa. Apresente o grupo e o título. Em seguida avance para a Tela 1.">
+  <div class="glow"></div>
+  <div class="pad cover">
+    <div class="meta r">Comunicação · Educação · Tecnologia assistiva</div>
+    <h1 class="r grad" style="margin-top:28px">Unmute</h1>
+    <div class="sub r">Óculos de legendas em tempo real para pessoas surdas.</div>
+    <div class="lineglasses r">
+      <svg viewBox="0 0 1000 360" role="img" aria-label="Desenho em linha de óculos minimalistas com legenda na lente direita">
+        <defs>
+          <linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#f5f5f7"/><stop offset=".55" stop-color="#4cc9e6"/><stop offset="1" stop-color="#7f9ab0"/></linearGradient>
+          <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f5f7" stop-opacity=".07"/><stop offset="1" stop-color="#4cc9e6" stop-opacity=".10"/></linearGradient>
+        </defs>
+        <rect class="lensfill" x="95" y="70" width="350" height="220" rx="74"/>
+        <rect class="lensfill" x="555" y="70" width="350" height="220" rx="74"/>
+        <rect class="draw" pathLength="1" x="95" y="70" width="350" height="220" rx="74"/>
+        <rect class="draw" pathLength="1" x="555" y="70" width="350" height="220" rx="74"/>
+        <path class="draw" pathLength="1" d="M445 122 C468 96 532 96 555 122"/>
+        <path class="draw" pathLength="1" d="M95 112 L38 96"/>
+        <path class="draw" pathLength="1" d="M905 112 L962 96"/>
+        <circle class="sensor" cx="880" cy="96" r="6"/>
+      </svg>
+      <div class="lens2" data-delay="3000" data-typer='[["Pessoa 1","Bem-vindos ao Unmute."]]'></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="A comunicação como direito" data-tela="1">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>01</b>Ato I · Contexto</div>
+  <div class="statement">
+    <div class="small r" style="letter-spacing:.3em;font-weight:700;color:var(--accent);margin-bottom:40px">UNMUTE</div>
+    <p class="big words" data-speed="140">E se você não conseguisse <em>acompanhar a conversa?</em></p>
+    <p class="lead r" data-d="1.6">A barreira não está na capacidade de aprender. <b>Está no acesso à informação, à comunicação e à participação.</b></p>
+  </div>
+</section>
+
+<section class="slide steel" data-title="Das primeiras escolas aos debates sobre língua" data-tela="2">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>02</b>Ato I · História</div>
+  <div class="pad">
+    <h1 class="t r">Das primeiras escolas <span class="m">aos debates sobre língua.</span></h1>
+    <div class="timeline">
+      <div class="tl r" data-d=".6"><div class="dot"></div><div class="yr">1856/57</div><h3>Origem do atual INES</h3><p>Criação e institucionalização da escola no Rio de Janeiro, marco da educação de surdos no país.</p></div>
+      <div class="tl r" data-d="1.0"><div class="dot"></div><div class="yr">1875</div><h3>Flausino José da Gama</h3><p>Registro de sinais por um ex-aluno surdo do instituto: um dos primeiros registros de sinais no Brasil.</p></div>
+      <div class="tl r" data-d="1.4"><div class="dot"></div><div class="yr">1880</div><h3>Congresso de Milão</h3><p>Fortalecimento do oralismo: a fala passou a ser priorizada, e a língua de sinais, desvalorizada no ensino.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide steel" data-title="Do assistencialismo ao protagonismo" data-tela="3">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>03</b>Ato I · Movimento</div>
+  <div class="pad">
+    <div class="small r">Do assistencialismo ao protagonismo</div>
+    <div class="quote r"><span class="q">“</span>Nada sobre nós,<br>sem nós.<span class="q">”</span></div>
+    <div class="rows">
+      <div class="card r" data-d=".7"><div class="k">1970–1980</div><h3>Organização política</h3><p>Pessoas com deficiência se organizam como sujeitos políticos, não como objetos de caridade.</p></div>
+      <div class="card r" data-d=".9"><div class="k">1987</div><h3>FENEIS</h3><p>Reorganização da federação com protagonismo das próprias pessoas surdas.</p></div>
+      <div class="card r" data-d="1.1"><div class="k">Pauta</div><h3>Direitos e cidadania</h3><p>Participação, acesso à informação e reconhecimento da língua de sinais.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide steel" data-title="O reconhecimento da Libras" data-tela="4">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>04</b>Ato I · Direitos</div>
+  <div class="pad">
+    <h1 class="t r">O reconhecimento <span class="m">da Libras.</span></h1>
+    <div class="years">
+      <div class="r" data-d=".5"><div class="yr">2002</div><h3>Lei 10.436</h3><p>Reconhece a Libras como meio legal de comunicação e expressão.</p></div>
+      <div class="r" data-d=".8"><div class="yr">2005</div><h3>Decreto 5.626</h3><p>Regulamenta a lei: formação de professores, intérpretes e ensino.</p></div>
+      <div class="r" data-d="1.1"><div class="yr">2021</div><h3>Lei 14.191</h3><p>Inclui a educação bilíngue de surdos na LDB como modalidade de ensino.</p></div>
+    </div>
+    <p class="small r" data-d="1.4" style="margin-top:70px">A Libras tem gramática própria: não é o português feito com as mãos.</p>
+  </div>
+</section>
+
+<section class="slide" data-title="Onde estudam esses alunos?" data-tela="5">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>05</b>Ato I · Educação</div>
+  <div class="pad">
+    <h1 class="t r">Onde estudam <span class="m">esses alunos?</span></h1>
+    <div class="stat">
+      <div class="r" data-d=".4">
+        <div class="pct"><span data-count="90.3" data-dec="1">90,3</span>%</div>
+        <div class="bar"><i></i></div>
+        <div class="legend"><span>Escolas comuns</span><span>Bilíngues</span></div>
+      </div>
+      <div class="facts">
+        <div class="fact r" data-d=".6"><div class="n" data-count="61623">61.623</div><div class="d">matrículas do público-alvo da educação bilíngue de surdos (2024)</div></div>
+        <div class="fact r" data-d=".8"><div class="n acc" data-count="55660">55.660</div><div class="d">em escolas comuns</div></div>
+        <div class="fact r" data-d="1.0"><div class="n" data-count="5963">5.963</div><div class="d">em escolas, classes ou turmas bilíngues de surdos</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="caption">Censo Escolar 2024 (Inep). 90,3% = 55.660 / 61.623 matrículas; não representa a população total de pessoas surdas.</div>
+</section>
+
+<section class="slide" data-title="A comunicação não termina na sala de aula" data-tela="6">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>06</b>Ato I · Cotidiano</div>
+  <div class="pad">
+    <h1 class="t r">A comunicação não termina <span class="m">na sala de aula.</span></h1>
+    <div class="trip">
+      <div class="card r" data-d=".5"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 9l9-5 9 5-9 5-9-5z"/><path d="M7 11.5V16c0 1.5 2.5 3 5 3s5-1.5 5-3v-4.5"/></svg></div><div class="k">Escola</div><h3>Acompanhar explicações e perguntas</h3><p>Aulas, debates e trabalhos em grupo dependem do que é dito em voz alta.</p></div>
+      <div class="card r" data-d=".7"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M14.5 14.5c.8-.3 1.6-.5 2.5-.5 2.8 0 5 2.2 5 5"/></svg></div><div class="k">Amigos</div><h3>Saber quem está falando</h3><p>Em rodas de conversa, várias pessoas falam, se interrompem e riem ao mesmo tempo.</p></div>
+      <div class="card r" data-d=".9"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/><path d="M3 13h18"/></svg></div><div class="k">Trabalho</div><h3>Participar de reuniões e decisões</h3><p>Sem acesso ao que é discutido, a participação fica limitada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="Purdue: uma ideia pioneira de realidade mista" data-tela="7">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>07</b>Ato II · Inspiração</div>
+  <div class="pad" style="padding-top:110px">
+    <div class="two">
+      <div>
+        <div class="small r">Purdue University · SIGGRAPH 2022</div>
+        <h1 class="t r" style="font-size:80px;margin-top:14px">Uma ideia pioneira <span class="m">de realidade mista.</span></h1>
+        <div class="flow r" data-d=".6">
+          <div class="st"><b>Fala</b><span>do professor</span></div><div class="ar">→</div>
+          <div class="st"><b>Azure</b><span>Speech-to-Text</span></div><div class="ar">→</div>
+          <div class="st"><b>Avatar 3D</b><span>sinais em SEE</span></div>
+        </div>
+        <p class="lead r" data-d=".8" style="font-size:30px">Microsoft HoloLens, Unity e animações por captura de movimento. Um protótipo educacional, não um produto de uso cotidiano.</p>
+        <div class="tag r" data-d="1">Signed Exact English (SEE), não Libras</div>
+      </div>
+      <figure class="photo r" data-d=".5">
+        <img src="assets/purdue-classroom.webp" alt="Estudante usando o headset HoloLens em sala de aula enquanto um avatar 3D sinaliza ao lado do professor">
+        <figcaption>Yang, Mousas e Adamo, “Holographic Sign Language Interpreter”, SIGGRAPH 2022 (Purdue). Imagem reproduzida do artigo.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="A mudança que veio da escuta" data-tela="8">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>08</b>Ato II · Descoberta</div>
+  <div class="pad">
+    <h1 class="t r">A mudança <span class="m">que veio da escuta.</span></h1>
+    <div class="ba">
+      <div class="card r" data-d=".5"><div class="k" style="color:var(--muted)">Ideia inicial</div><h3>Avatar fazendo sinais</h3>
+        <div class="vis strike"><svg viewBox="0 0 200 160" width="210" fill="none" stroke="#8b9198" stroke-width="4" stroke-linecap="round"><circle cx="100" cy="36" r="18"/><path d="M100 54v56M100 70l-34-10-14-26M100 70l34-10 16-28M100 110l-20 40M100 110l20 40"/></svg></div></div>
+      <div class="arrow r" data-d=".8">→</div>
+      <div class="card r" data-d=".9"><div class="k" style="color:var(--warm)">Aprendizado</div><h3>Conversas exploratórias com pessoas surdas</h3>
+        <p>Ouvimos o que seria mais útil no dia a dia: ler a conversa e saber quem está falando.</p></div>
+      <div class="arrow r" data-d="1.1">→</div>
+      <div class="card now r" data-d="1.2"><div class="k">Proposta atual</div><h3>Legendas + Pessoa 1 / Pessoa 2</h3>
+        <div class="vis"><div class="mini"><div class="who">Pessoa 1</div><div class="line">Quem vai apresentar?</div><div class="who p2">Pessoa 2</div><div class="line" style="margin-bottom:0">Nós duas.</div></div></div></div>
+    </div>
+  </div>
+  <div class="caption">Conversas exploratórias, ainda não um estudo formal. A proposta segue em validação com a comunidade surda.</div>
+</section>
+
+<section class="slide" data-title="Unmute: um óculos de uso cotidiano" data-tela="9">
+  <div class="hero" style="background-image:url(assets/render-front.webp)"></div>
+  <div class="hero-ui r" data-d="1"><div data-typer='[["Pessoa 1","Vamos começar a reunião?"],["Pessoa 2","Pode começar, eu anoto."]]' data-delay="1500"></div></div>
+  <div class="hero-txt">
+    <div class="small r" style="letter-spacing:.3em;font-weight:700;color:var(--accent)">ATO III · PRODUTO</div>
+    <h1 class="r grad" style="margin-top:18px">Unmute</h1>
+    <p class="lead r" style="color:#c9d2da">Um óculos de uso cotidiano, com a conversa legendada na lente.</p>
+    <div class="pills r"><span>Legendas em tempo real</span><span>Identificação de interlocutores</span><span>Discrição</span></div>
+  </div>
+  <div class="caption" style="z-index:3">Representação conceitual. Projeto conceitual: ainda não é hardware fabricado.</div>
+</section>
+
+<section class="slide" data-title="A experiência de uso" data-tela="10">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>10</b>Ato III · Experiência</div>
+  <div class="pad">
+    <div class="ux">
+      <div>
+        <h1 class="t r">A experiência <span class="m">de uso.</span></h1>
+        <div class="checks">
+          <div class="r" data-d=".5">Cada fala vira legenda, com o rótulo de quem está falando.</div>
+          <div class="r" data-d=".7">“Pessoa 1” e “Pessoa 2” são rótulos temporários, sem reconhecimento facial nem identificação civil.</div>
+          <div class="r" data-d=".9">Resumo opcional por IA para conversas em grupo, que pode conter erros e não substitui o texto original.</div>
+        </div>
+      </div>
+      <div class="lensui r" data-d=".3">
+        <div class="mic"><i></i>OUVINDO</div>
+        <div class="bub" data-at="900"><div class="who">Pessoa 1</div><div class="line">“Você terminou o trabalho?”</div></div>
+        <div class="bub" data-at="2200"><div class="who p2">Pessoa 2</div><div class="line">“Sim, vamos apresentar às duas.”</div></div>
+        <div class="bub" data-at="3400"><div class="btn">Resumir</div></div>
+        <div class="bub sum" data-at="4300"><div class="who">Resumo opcional · IA</div><div class="line">“O grupo combinou apresentar às duas.”</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="Como seria construído" data-tela="11">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>11</b>Ato III · Engenharia</div>
+  <div class="pad">
+    <h1 class="t r">Como seria <span class="m">construído.</span></h1>
+    <div class="arch">
+      <div class="card r" data-d=".4"><div class="num">01</div><h3>Microfones</h3><ul><li>Microfones MEMS na armação</li><li>Captação da voz próxima</li><li>Redução de ruído</li></ul></div>
+      <div class="ar r" data-d=".6"><i></i></div>
+      <div class="card r" data-d=".7"><div class="num">02</div><h3>Smartphone / IA</h3><ul><li>Transcrição (ASR)</li><li>Segmentação de voz</li><li>Diarização: Pessoa 1, Pessoa 2</li></ul></div>
+      <div class="ar r" data-d=".9"><i></i></div>
+      <div class="card r" data-d="1.0"><div class="num">03</div><h3>Óptica AR</h3><ul><li>Exibição monocular</li><li>Imagem virtual na lente</li><li>Controles de contraste e posição</li></ul></div>
+    </div>
+    <p class="pipe r" data-d="1.2"><b>MVP:</b> primeiro um aplicativo de smartphone com legendas em português, para validar a função antes da forma.</p>
+  </div>
+</section>
+
+<section class="slide" data-title="Quanto custariam os componentes?" data-tela="12">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>12</b>Ato III · Custos</div>
+  <div class="pad" style="padding-top:130px">
+    <h1 class="t r" style="font-size:80px">Quanto custariam <span class="m">os componentes?</span></h1>
+    <div class="cost">
+      <div class="r" data-d=".4" id="bom"></div>
+      <div class="r" data-d=".6">
+        <div class="total">Faixa hipotética de componentes<div class="n">R$ 1.490<span class="m" style="color:var(--muted)">–</span>5.400</div></div>
+        <div class="warn"><b style="color:var(--accent)">Óptica AR</b> é o componente de maior incerteza e pesa mais na faixa.</div>
+        <div class="warn">Não inclui desenvolvimento, montagem, tributos, certificações, ferramental, smartphone, manutenção, internet nem inferência em nuvem.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="Tecnologia com propósito" data-tela="13">
+  <div class="glow"></div>
+  <div class="eyebrow r"><b>13</b>Ato IV · Impacto</div>
+  <div class="closing">
+    <div>
+      <h1 class="t r" style="font-size:84px">Tecnologia <span class="m">com propósito.</span></h1>
+      <div class="goals">
+        <div class="card r" data-d=".4"><div class="k">01</div><h3>Comunicação cotidiana</h3></div>
+        <div class="card r" data-d=".55"><div class="k">02</div><h3>Apoio educacional complementar</h3></div>
+        <div class="card r" data-d=".7"><div class="k">03</div><h3>Integração social e profissional</h3></div>
+        <div class="card r" data-d=".85"><div class="k">04</div><h3>Tecnologia assistiva desenvolvida no Brasil</h3></div>
+      </div>
+      <p class="endline r" data-d="1.2" style="margin-top:60px">Menos barreiras. <span class="acc">Mais participação.</span></p>
+    </div>
+    <figure class="photo r" data-d=".5"><img src="assets/render-closeup.webp" alt="Representação conceitual dos óculos Unmute com legenda na lente"></figure>
+  </div>
+  <div class="caption">Legendas complementam, e não substituem, a Libras, a educação bilíngue e os intérpretes.</div>
+</section>
+
+<section class="slide annex" data-title="Anexo A · Pesquisa" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>A</b>ANEXO A / PESQUISA</div><div class="pad scroll"><h1 class="t">História e contextualização: notas verificadas</h1><div class="doc"><p>Esta seção complementa as telas 2–6 para eventuais perguntas e para o agente de implementação. Não é necessário projetá-la na apresentação principal.</p>
+<h3>1. Criação do atual INES</h3>
+<p>A escola começou suas atividades em janeiro de 1856; a fundação oficial é associada à Lei nº 939, de 26 de setembro de 1857. O INES identifica a participação do educador surdo francês E. Huet e a influência francesa na circulação de sinais. O manual do agente deve evitar simplificar o marco como se todas as comunidades surdas brasileiras tivessem surgido apenas naquela instituição. [S03]</p>
+<p>2. Congresso de Milão (1880)</p>
+<p>O encontro internacional fortaleceu a preferência pelo método oral de ensino e é um marco simbólico na marginalização educacional das línguas de sinais. Não foi uma lei brasileira nem suprimiu imediatamente todas as práticas em sinais. [S04, S05]</p>
+<h3>3. Movimento surdo e organização política</h3>
+<p>A FENEIS informa ter sido fundada em 16 de maio de 1987 e atua em direitos linguísticos, educação, cultura e trabalho. Um movimento político amplo por direitos das pessoas com deficiência ganhou força na redemocratização. [S06, S07]</p>
+<h3>4. Educação bilíngue: definição e alcance</h3>
+<p>A Lei 14.191/2021 estabelece Libras como primeira língua e português escrito como segunda na modalidade de educação bilíngue de surdos, que pode ser ofertada em diferentes organizações escolares. Não confundir “escola comum” com ausência automática de apoio ou de Libras. [S10, S11]</p>
+<h3>5. Estatística de uso principal</h3>
+<p>Documento de consulta do CNE com base no Censo Escolar 2024: 61.623 matrículas PAEBS; 55.660 em escolas comuns e 5.963 em escolas/classes/turmas bilíngues. 55.660 ÷ 61.623 ≈ 90,33%. A categoria PAEBS é mais ampla do que pessoas surdas sinalizantes e não corresponde à população total com deficiência auditiva. [S12]</p>
+<h3>6. População com dificuldade auditiva: somente no anexo</h3>
+<p>O IBGE registrou 2,555 milhões de pessoas de 2 anos ou mais com dificuldade funcional permanente para ouvir no Censo 2022, conforme o critério adotado. Esse número não deve ser rotulado como “2,6 milhões de usuários de Libras” ou “2,6 milhões de surdos sinalizantes”. [S13]</p></div></div></section>
+<section class="slide annex" data-title="Anexo B · Vídeos Da Professora" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>B</b>ANEXO B / VÍDEOS DA PROFESSORA</div><div class="pad scroll"><h1 class="t">Como incorporar a série documental sem inventar passagens</h1><div class="doc"><p>A Câmara Paulista para Inclusão identifica exatamente os cinco URLs enviados como a série “História do Movimento Político das Pessoas com Deficiência no Brasil”. A série deriva da produção institucional registrada em 2010; o artigo de referência menciona publicação dos vídeos em 2011. O recorte é movimento de pessoas com deficiência em geral. [S01, S02]</p>
+<h3>Conexão conceitual com as telas 3 e 8</h3>
+<ul>
+<li>Eixo histórico: assistência institucional → organização coletiva → reivindicação de direitos → participação em políticas públicas.</li>
+<li>Eixo político: lutas articuladas no processo de redemocratização, sem confundir o conjunto PCD com o movimento surdo.</li>
+<li>Eixo de design: “Nada sobre nós, sem nós” traduz-se em cocriação do produto com pessoas surdas.</li>
+<li>Eixo educacional: a história da inclusão ajuda a discutir por que estar fisicamente na escola não garante acessibilidade linguística.</li>
+</ul><div class="vids"><a href="https://www.youtube.com/watch?v=eDi63uTyhkY" target="_blank" rel="noopener"><b>Episódio 1</b><span>Assistir no YouTube ↗</span></a><a href="https://www.youtube.com/watch?v=AKFyBAHsD_4" target="_blank" rel="noopener"><b>Episódio 2</b><span>Assistir no YouTube ↗</span></a><a href="https://www.youtube.com/watch?v=YO7sy4FCaCc" target="_blank" rel="noopener"><b>Episódio 3</b><span>Assistir no YouTube ↗</span></a><a href="https://www.youtube.com/watch?v=2vXQKAjWda4" target="_blank" rel="noopener"><b>Episódio 4</b><span>Assistir no YouTube ↗</span></a><a href="https://www.youtube.com/watch?v=4eXNw5CSMbA" target="_blank" rel="noopener"><b>Episódio 5</b><span>Assistir no YouTube ↗</span></a></div><h3>Prática acadêmica correta</h3>
+<p>A pesquisa permitiu confirmar a correspondência entre os cinco links e a série documental por fonte secundária confiável. Não houve verificação quadro a quadro do conteúdo dos cinco vídeos; portanto, o roteiro não inclui falas literais, timestamps ou depoimentos atribuídos a episódios específicos. Se o agente inserir cenas, deverá assistir e confirmar a passagem e o crédito antes de usar.</p></div></div></section>
+<section class="slide annex" data-title="Anexo C · Purdue" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>C</b>ANEXO C / PURDUE</div><div class="pad scroll"><h1 class="t">O que exatamente foi demonstrado em 2022</h1><div class="doc"><p>Autores: Fu-Chia Yang, Christos Mousas e Nicoletta Adamo (Purdue University). Trabalho “Holographic Sign Language Interpreters”, SIGGRAPH 2022 Educator’s Forum. DOI: 10.1145/3532724.3535593. [S16]</p><table class="tb"><tr><th>Aspecto</th><th>Descrição comprovada</th></tr><tr><td>Dispositivo</td><td>Microsoft HoloLens (realidade mista), volumoso em relação a óculos de armação tradicional.</td></tr><tr><td>Entrada</td><td>Áudio da fala, transformado em texto com Azure Speech-to-Text.</td></tr><tr><td>Saída</td><td>Avatar 3D controlado por Unity, com animações de sinais registradas por captura de movimento.</td></tr><tr><td>Língua/sistema</td><td>O protótipo da publicação SIGGRAPH utiliza Signed Exact English (SEE), que não é Libras.</td></tr><tr><td>Escopo</td><td>Protótipo educacional, com domínio de sinais e lições de matemática limitados.</td></tr><tr><td>Estudo correlato</td><td>Artigo de interação em sala de aula incluiu 8 participantes e estudou preferências de exibição/manipulação do avatar.</td></tr><tr><td>Limitação da evidência</td><td>Não comprova melhora universal de aprendizado, nem valida um produto pronto para uso cotidiano.</td></tr></table><h3>Crítica equilibrada e respeitosa</h3>
+<p>Evitar dizer que o aparelho “causa constrangimento” como fato observado na pesquisa. É razoável formular como hipótese de design: um headset volumoso pode restringir conforto, aparência e aceitação social em usos prolongados; isso precisa ser estudado. O Unmute propõe explorar uma arquitetura mais próxima de óculos convencionais, sem atribuir fracasso ao projeto de Purdue. [S16–S18]</p>
+<h3>Complemento que acrescenta rigor</h3>
+<p>Os próprios pesquisadores apontam a importância de fatores humanos e de novas avaliações. O foco atual do Unmute não é traduzir automaticamente a fala para Libras; é reconhecer fala e apresentá-la como texto, com contexto sobre os interlocutores. São problemas técnicos diferentes. [S18]</p></div></div></section>
+<section class="slide annex" data-title="Anexo D · Tecnologia" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>D</b>ANEXO D / TECNOLOGIA</div><div class="pad scroll"><h1 class="t">Arquitetura sugerida e escopo do MVP</h1><div class="doc"><h3>Versão 0 — validar a função antes da forma</h3>
+<ul>
+<li>Aplicativo para smartphone com legendas em português brasileiro e rótulos temporários de interlocutores.</li>
+<li>Testes em sala de aula, reuniões e ambientes ruidosos; identificar erros, sobreposição de vozes e atraso.</li>
+<li>Interface simulada de lente com limites de caracteres e visibilidade do falante.</li>
+<li>Sem identificação facial ou gravação persistente por padrão.</li>
+</ul>
+<h3>Versão 1 — protótipo vestível</h3>
+<ul>
+<li>Armação com 2–4 microfones MEMS, placa compacta, bateria, controles e módulo óptico de realidade aumentada monocular.</li>
+<li>Processamento de ASR (Automatic Speech Recognition) e diarização no smartphone pareado.</li>
+<li>Enviar legendas para o display com latência controlada e modo de acessibilidade configurável.</li>
+<li>Projetar sinalização de microfone ligado, interrupção manual e perfis de privacidade.</li>
+</ul>
+<h3>Fluxo lógico de software</h3>
+<h3>Pipeline proposto</h3>
+<p>Captação → detecção de atividade de voz (VAD) → redução de ruído → reconhecimento de fala (ASR) → diarização (“Pessoa 1/2”) → formatação/legenda → exibição monocular → resumo opcional, explicitamente rotulado como IA.</p>
+<h3>O que torna a engenharia difícil</h3>
+<ul>
+<li>Vozes sobrepostas: diarização e transcrição podem falhar simultaneamente; o sistema deve mostrar incerteza. [S21]</li>
+<li>Latência: depende da estratégia de streaming, hardware e conectividade; testar, sem prometer tempo de resposta fixo.</li>
+<li>Óptica: brilho externo, distância focal aparente, campo de visão e conforto visual não são triviais.</li>
+<li>Bateria/peso: prolongar uso exige reduzir potência, aquecimento e volume.</li>
+<li>Privacidade: é necessário justificar finalidade, base legal, minimização, segurança e informação clara sobre tratamento de dados. [S24]</li>
+</ul></div></div></section>
+<section class="slide annex" data-title="Anexo E · Componentes" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>E</b>ANEXO E / COMPONENTES</div><div class="pad scroll"><h1 class="t">BOM ilustrativa — custos somente de peças</h1><div class="doc"><p>Hipótese: unidade piloto com uma lente com exibição e processamento de IA em smartphone do usuário. Valores de planejamento em R$, não cotação de fornecedores. A faixa de óptica é uma reserva de engenharia sem proposta comercial confirmada.</p><table class="tb"><tr><th>Componente</th><th>Faixa (R$)</th></tr><tr><td>Óptica AR monocular</td><td class=num>900–3.500</td></tr><tr><td>Microfones MEMS e passivos</td><td class=num>60–190</td></tr><tr><td>Microcontrolador e conectividade</td><td class=num>40–130</td></tr><tr><td>Bateria recarregável</td><td class=num>70–180</td></tr><tr><td>PCB, flex, drivers e conectores</td><td class=num>140–420</td></tr><tr><td>Armação, suportes e lentes básicas</td><td class=num>160–600</td></tr><tr><td>Sensores e controles</td><td class=num>35–150</td></tr><tr><td>Gestão de energia e diversos</td><td class=num>85–230</td></tr><tr class="tot"><td>Total</td><td class=num>1.490–5.400</td></tr></table><h3>Âncoras de preço consultadas</h3>
+<ul>
+<li>LILYGO T-Glass: referência de desenvolvimento com prisma/display e ESP32-S3, preço publicado em torno de US$ 54,63.</li>
+</ul>
+<p>É mais simples que o design final desejado. [S23, S25]</p>
+<ul>
+<li>Adafruit MEMS PDM breakout: US$ 4,95 por módulo, útil apenas como indicação de ordem de grandeza de microfone em pequena quantidade. [S26]</li>
+<li>ESP32-S3-WROOM-1: preço unitário listado em torno de US$ 5,88 na DigiKey para variante consultada. [S27]</li>
+<li>Não foi obtida cotação firme do conjunto óptico customizado, que domina a incerteza do custo.</li>
+</ul>
+<h3>Não incluído</h3>
+<p>Engenharia de software/hardware; montagem de protótipos e retrabalho; ferramentais; testes óticos e de segurança;</p>
+<p>certificações; transporte e impostos; smartphone; manutenção; armazenamento; internet e inferência em nuvem.</p>
+<p>Não tratar BOM como custo industrial total.</p></div></div></section>
+<section class="slide annex" data-title="Anexo F · Estado Da Arte" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>F</b>ANEXO F / ESTADO DA ARTE</div><div class="pad scroll"><h1 class="t">Unmute não é o primeiro óculos de legenda</h1><div class="doc"><p>É importante reconhecer concorrentes e trabalhos anteriores para que o diferencial proposto não dependa de alegações de ineditismo.</p><table class="tb"><tr><th>Referência</th><th>O que já existe / como citar</th></tr><tr><td>Purdue (2022)</td><td>Avatar sinalizando SEE em HoloLens; pesquisa acadêmica, não óculos cotidiano de legendagem.</td></tr><tr><td>XRAI AR2 (2025)</td><td>Fabricante anunciou legendas, Speaker ID, tradução e resumos de IA em um produto de óculos. Valores, precisão e autonomia alegados são informações do fabricante.</td></tr><tr><td>XanderGlasses</td><td>Óculos para exibir legendas em tempo real. A empresa divulga modelos com operação offline.</td></tr><tr><td>Unmute (proposta)</td><td>Foco no português brasileiro, educação, interface leve e construção/validação nacional; diferenciais pretendidos, ainda não comprovados.</td></tr></table><h3>Como responder se a professora perguntar se já existe</h3>
+<p>“Sim, existem iniciativas acadêmicas e produtos comerciais que comprovam o interesse nessa categoria. Nosso projeto não afirma ter inventado a legendagem em óculos; propomos explorar a tecnologia com foco em acessibilidade, português brasileiro, design discreto e participação de usuários surdos locais.” [S16, S19, S20]</p>
+<h3>Posicionamento de projeto</h3>
+<ul>
+<li>Não vender: “os primeiros óculos de legenda do mundo”.</li>
+<li>Vender a ideia: design centrado em usuários e pesquisa aplicada à realidade brasileira.</li>
+<li>Não inventar: autonomia, precisão, custo de produção em escala, prova de benefício educacional.</li>
+<li>Validar: com diferentes perfis de pessoas surdas, usuárias ou não de Libras.</li>
+</ul></div></div></section>
+<section class="slide annex" data-title="Anexo G · Ética E Validação" data-note="Material de apoio para perguntas. Não precisa ser apresentado."><div class="glow"></div><div class="eyebrow"><b>G</b>ANEXO G / ÉTICA E VALIDAÇÃO</div><div class="pad scroll"><h1 class="t">Critérios para um projeto responsável</h1><div class="doc"><h3>Pesquisa com usuários: proposta de estudo, não resultado já realizado</h3>
+<ul>
+<li>Recrutar participantes com diferentes idades, contextos educacionais e preferências linguísticas, com acessibilidade na própria condução da pesquisa.</li>
+<li>Pedir permissão para registrar falas e envolver participantes surdos em decisões de produto, não apenas em testes finais.</li>
+<li>Avaliar situações reais: aula expositiva, trabalho em grupo, conversa de 2 pessoas e roda de conversa de 4 ou mais.</li>
+<li>Investigar compreensão, sobrecarga visual, distração, conforto, aparência e se a identificação de interlocutores realmente ajuda.</li>
+</ul><table class="tb"><tr><th>Métrica</th><th>O que mede</th></tr><tr><td>WER / CER</td><td>Erro de transcrição de palavras/caracteres em português brasileiro.</td></tr><tr><td>DER / falantes</td><td>Erro de diarização e estabilidade dos rótulos de interlocutores.</td></tr><tr><td>Latência fim-a-fim</td><td>Tempo entre a fala e a legenda no display.</td></tr><tr><td>Compreensão</td><td>Perguntas práticas sobre o que foi dito, com e sem o dispositivo, em estudo apropriado.</td></tr><tr><td>Conforto</td><td>Peso percebido, tempo de uso, legibilidade, fadiga e distração.</td></tr><tr><td>Confiança/privacidade</td><td>Compreensão de avisos e controle real sobre captação, retenção e compartilhamento.</td></tr></table><h3>Princípio de segurança e transparência</h3>
+<p>Não presumir que áudio captado em ambiente público pode ser gravado indefinidamente. Preferir processamento local quando viável, retenção mínima, avisos de captação e avaliação jurídica conforme LGPD e contexto de uso. A identificação “Pessoa 1” não exige criar cadastro biométrico. [S24]</p></div></div></section>
+<section class="slide annex" data-title="Referências S01–S14" data-note="Bibliografia."><div class="glow"></div><div class="eyebrow"><b>REF</b>Referências · 1/2</div><div class="pad scroll"><h1 class="t">Referências</h1><div class="bib"><p><b>[S01]</b> Série documental (cinco episódios) — Câmara Paulista para Inclusão: artigo que identifica os cinco links como partes de um documentário sobre o movimento de pessoas com deficiência no Brasil. <a href=https://www.camarainclusao.com.br/noticias/videos-contam-a-historia-do-movimento-das-pessoas-com-deficiencia-no-brasil/ target=_blank rel=noopener>https://www.camarainclusao.com.br/noticias/videos-contam-a-historia-do-movimento-das-pessoas-com-deficiencia-no-brasil/</a></p><p><b>[S02]</b> História do movimento político das pessoas com deficiência no Brasil — Secretaria de Direitos Humanos da Presidência da República; livro de 2010, via GEDH/UERJ. <a href=https://gedh-uerj.pro.br/documentos/historia-do-movimento-politico-das-pessoas-com-deficiencia-no-brasil-2/ target=_blank rel=noopener>https://gedh-uerj.pro.br/documentos/historia-do-movimento-politico-das-pessoas-com-deficiencia-no-brasil-2/</a></p><p><b>[S03]</b> Histórico institucional do INES — Instituto Nacional de Educação de Surdos. Documento com distinção entre 1856 (funcionamento) e 1857 (data oficial). <a href=https://www.ines.gov.br/images/inesnet/boletim/BS-INES%202018/Boletim09-Esp_2018.pdf target=_blank rel=noopener>https://www.ines.gov.br/images/inesnet/boletim/BS-INES%202018/Boletim09-Esp_2018.pdf</a></p><p><b>[S04]</b> História da Educação de Surdos — UFSC, material acadêmico sobre o Congresso de Milão e seus debates históricos. <a href=https://www.libras.ufsc.br/colecaoLetrasLibras/eixoFormacaoEspecifica/historiaDaEducacaoDeSurdos/assets/258/TextoBase_HistoriaEducacaoSurdos.pdf target=_blank rel=noopener>https://www.libras.ufsc.br/colecaoLetrasLibras/eixoFormacaoEspecifica/historiaDaEducacaoDeSurdos/assets/258/TextoBase_HistoriaEducacaoSurdos.pdf</a></p><p><b>[S05]</b> Histórico da língua de sinais — Ministério da Ciência, Tecnologia e Inovação / MAST, panorama de 1857 a 1880 e evolução da educação de surdos. <a href=https://www.gov.br/mast/pt-br/assuntos/noticias/2025/setembro/conheca-um-historico-da-lingua-brasileira-de-sinais target=_blank rel=noopener>https://www.gov.br/mast/pt-br/assuntos/noticias/2025/setembro/conheca-um-historico-da-lingua-brasileira-de-sinais</a></p><p><b>[S06]</b> FENEIS: missão e data de fundação — Federação Nacional de Educação e Integração dos Surdos. <a href=https://feneis.org.br/o-que-e/ target=_blank rel=noopener>https://feneis.org.br/o-que-e/</a></p><p><b>[S07]</b> Linha do tempo do movimento de direitos — Fundação FHC, acontecimentos da organização política de pessoas com deficiência. <a href=https://fundacaofhc.org.br/linhasdotempo/pessoas-com-deficiencia/ target=_blank rel=noopener>https://fundacaofhc.org.br/linhasdotempo/pessoas-com-deficiencia/</a></p><p><b>[S08]</b> Lei nº 10.436/2002 — Lei de reconhecimento da Libras como meio legal de comunicação e expressão. <a href=https://www.planalto.gov.br/ccivil_03/leis/2002/l10436.htm target=_blank rel=noopener>https://www.planalto.gov.br/ccivil_03/leis/2002/l10436.htm</a></p><p><b>[S09]</b> Decreto nº 5.626/2005 — Regulamentação da Lei de Libras e ações de acessibilidade educacional. <a href=https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/decreto/d5626.htm target=_blank rel=noopener>https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/decreto/d5626.htm</a></p><p><b>[S10]</b> Lei nº 14.191/2021 — Altera a LDB para prever a modalidade de educação bilíngue de surdos. <a href=https://www2.camara.leg.br/legin/fed/lei/2021/lei-14191-3-agosto-2021-791630-publicacaooriginal-163262-pl.html target=_blank rel=noopener>https://www2.camara.leg.br/legin/fed/lei/2021/lei-14191-3-agosto-2021-791630-publicacaooriginal-163262-pl.html</a></p><p><b>[S11]</b> Definição oficial de educação bilíngue de surdos — INEP, FAQ de Educação Especial, atualizado em 2026. <a href=https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/censo-escolar/educacao-especial/o-que-e-educacao-bilingue target=_blank rel=noopener>https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/censo-escolar/educacao-especial/o-que-e-educacao-bilingue</a></p><p><b>[S12]</b> Consulta Pública - Diretrizes Nacionais de Educação Bilíngue — Brasil Participativo/CNE; inclui quadro do Censo Escolar 2024 com 61.623, 55.660 e 5.963 matrículas. <a href=https://brasilparticipativo.presidencia.gov.br/processes/dcnebilinguesurdos/f/4971/ target=_blank rel=noopener>https://brasilparticipativo.presidencia.gov.br/processes/dcnebilinguesurdos/f/4971/</a></p><p><b>[S13]</b> Censo 2022 - pessoas com deficiência — IBGE; dados gerais sobre dificuldade funcional de ouvir, não equivalentes ao número de sinalizantes de Libras. <a href=https://www.ibge.gov.br/biblioteca/visualizacao/livros/liv102178.pdf target=_blank rel=noopener>https://www.ibge.gov.br/biblioteca/visualizacao/livros/liv102178.pdf</a></p><p><b>[S14]</b> Inclusão escolar de alunos surdos — Lacerda, C.B.F. (2006), artigo científico com relatos de alunos, professores e intérpretes em escola regular. <a href=https://www.scielo.br/j/ccedes/a/KWGSm9HbzsYT537RWBNBcFc/?lang=pt target=_blank rel=noopener>https://www.scielo.br/j/ccedes/a/KWGSm9HbzsYT537RWBNBcFc/?lang=pt</a></p></div></div></section>
+<section class="slide annex" data-title="Referências S15–S28" data-note="Bibliografia."><div class="glow"></div><div class="eyebrow"><b>REF</b>Referências · 2/2</div><div class="pad scroll"><h1 class="t">Referências</h1><div class="bib"><p><b>[S15]</b> Barreiras de acesso e direitos — INEP, definição de educação bilíngue: Libras como língua de instrução e interação. <a href=https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/censo-escolar/educacao-especial/o-que-e-educacao-bilingue target=_blank rel=noopener>https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/censo-escolar/educacao-especial/o-que-e-educacao-bilingue</a></p><p><b>[S16]</b> Holographic Sign Language Interpreters (SIGGRAPH 2022) — Yang, Mousas &amp; Adamo; artigo de 2 páginas, DOI 10.1145/3532724.3535593. <a href=https://web.ics.purdue.edu/~cmousas/papers/conf22-SIGGRAPH-SignAvatar.pdf target=_blank rel=noopener>https://web.ics.purdue.edu/~cmousas/papers/conf22-SIGGRAPH-SignAvatar.pdf</a></p><p><b>[S17]</b> Holographic Sign Language Avatar Interpreter (2022) — Yang, Mousas &amp; Adamo; estudo de interação com oito participantes. DOI 10.1002/cav.2082. <a href=https://onlinelibrary.wiley.com/doi/full/10.1002/cav.2082 target=_blank rel=noopener>https://onlinelibrary.wiley.com/doi/full/10.1002/cav.2082</a></p><p><b>[S18]</b> Entrevista dos autores Purdue na SIGGRAPH — Texto oficial SIGGRAPH explicando escopo e limitações do protótipo. <a href=https://blog.siggraph.org/2022/07/assistive-technology-enters-the-classroom-with-holographic-sign-language-interpreters.html/ target=_blank rel=noopener>https://blog.siggraph.org/2022/07/assistive-technology-enters-the-classroom-with-holographic-sign-language-interpreters.html/</a></p><p><b>[S19]</b> XRAI: AR2 apresentado em 2025 — Exemplo comercial de óculos com legendas, speaker ID e resumos por IA. Alegações de desempenho são do fabricante. <a href=https://xrai.glass/blog/ar2-launched-at-awe-2025/ target=_blank rel=noopener>https://xrai.glass/blog/ar2-launched-at-awe-2025/</a></p><p><b>[S20]</b> XanderGlasses — Exemplo alternativo de legendagem vestível; tecnologia independente de smartphone nos modelos descritos pela empresa. <a href=https://www.xanderglasses.com/ target=_blank rel=noopener>https://www.xanderglasses.com/</a></p><p><b>[S21]</b> Revisão de speaker diarization (2025) — O’Shaughnessy, Applied Sciences, DOI 10.3390/app15042002, desafios técnicos de separar turnos de fala. <a href=https://www.mdpi.com/2076-3417/15/4/2002 target=_blank rel=noopener>https://www.mdpi.com/2076-3417/15/4/2002</a></p><p><b>[S22]</b> XRAI: speaker identification — Documentação do produto observa dependência de modelos e serviço de transcrição para rótulos de falantes. <a href=https://knowledge.xrai.glass/speaker-identifcation target=_blank rel=noopener>https://knowledge.xrai.glass/speaker-identifcation</a></p><p><b>[S23]</b> LILYGO T-Glass — Referência comercial de prototipagem de óculos com ESP32-S3 e display prismático, não comparável a produto AR final. <a href=https://lilygo.cc/products/t-glass target=_blank rel=noopener>https://lilygo.cc/products/t-glass</a></p><p><b>[S24]</b> ANPD: perguntas frequentes LGPD — Bases gerais de tratamento de dados e proteção da privacidade. <a href=https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes target=_blank rel=noopener>https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes</a></p><p><b>[S25]</b> LILYGO T-Glass: documentação técnica — Descrição da placa, microfone, bateria, display e conectividade de referência. <a href=https://wiki.lilygo.cc/products/other/t-glass/ target=_blank rel=noopener>https://wiki.lilygo.cc/products/other/t-glass/</a></p><p><b>[S26]</b> Adafruit: microfone MEMS PDM — Módulo comercial US$ 4,95/unidade, exemplo de âncora de custo - não cotação do produto final. <a href=https://www.adafruit.com/product/3492 target=_blank rel=noopener>https://www.adafruit.com/product/3492</a></p><p><b>[S27]</b> DigiKey: Espressif ESP32-S3 — Preço unitário de referência do módulo ESP32-S3-WROOM-1-N8R2, sujeito a variações e estoque. <a href=https://www.digikey.com.br/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8R2/15200058 target=_blank rel=noopener>https://www.digikey.com.br/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8R2/15200058</a></p><p><b>[S28]</b> VLibras: aviso sobre não substituir intérprete humano — Governo Digital; observação pública de limitações de tradução automatizada. <a href=https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/vlibras target=_blank rel=noopener>https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/vlibras</a></p></div></div></section>
+
+</div></div>
+
+<div id="hud"><span id="count"></span><span><span id="clock">00:00</span>
+  <button id="btnIdx" title="Índice (I)">Índice</button><button id="btnPres" title="Modo apresentador (P)">Apresentador</button><button id="btnFs">Tela cheia</button></span></div>
+<div id="index"><h2>Índice</h2><ol></ol>
+  <div class="keys">← → navegar · I índice · P modo apresentador (abre o roteiro em outra janela) · F fontes da tela · Esc fechar</div></div>
+
+<script src="notes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
